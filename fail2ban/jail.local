@@ -1,0 +1,9 @@
+[sshd]
+enabled = true
+filter = sshd
+port = ssh
+maxretry = 3
+findtime = 15m
+bantime = 1h
+logpath = %(sshd_log)s
+backend = %(sshd_backend)s
